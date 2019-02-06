@@ -134,7 +134,8 @@ class Paint2(App):
     def preto(self, obj):
         self.painter.canvas.add(Color(0,0,0))
         self.painter.canvas.add(Rectangle(pos=(0,0),size=(1380,500)))
-        
+	
+    #teste   
     def show(self, *largs):
         dp = DropDown()
         dp.bind(on_select=lambda instance, x: setattr(self, 'text', x))
